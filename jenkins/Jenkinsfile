@@ -1,7 +1,7 @@
 pipeline {
     environment {
-        registry = 'jng06600/filrouge2'
-        registryCredential = 'jng06600'
+        registry = 'jng06/filrouge2'
+        registryCredential = 'jng06'
         dockerImage = ''
     }
     agent any
