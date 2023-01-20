@@ -9,4 +9,4 @@ RUN pip install -r requirements.txt
 
 EXPOSE 5000
 
-ENTRYPOINT [ "./run.sh" ]
+ENTRYPOINT [ "python" , "app.pi" ]
